@@ -22,6 +22,7 @@ public class Controller {
         redisTemplate.opsForValue().set("name", "lucy");
         String name = (String) redisTemplate.opsForValue().get("name");
         return name;
+//        123456
 
     }
 }
